@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="accountservice" />
+        <module name="authorizationservice" />
+        <module name="messageservice" />
+        <module name="registrationservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="accountservice" target="1.5" />
+      <module name="authorizationservice" target="1.5" />
+      <module name="hw8" target="1.5" />
+      <module name="messageservice" target="1.5" />
+      <module name="registrationservice" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
